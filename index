@@ -1,0 +1,56 @@
+import React from "react";
+
+const CapeTownTours = () => {
+  return (
+    <div className="bg-gray-100 text-gray-900 min-h-screen">
+      {/* Hero Section */}
+      <header className="bg-cover bg-center h-[400px] flex items-center justify-center text-white text-center" style={{ backgroundImage: "url('https://source.unsplash.com/1600x900/?cape-town,travel')" }}>
+        <div className="bg-black bg-opacity-50 p-8 rounded-xl">
+          <h1 className="text-4xl font-bold">Explore Cape Town</h1>
+          <p className="text-lg mt-2">Premium Tours & Transport Services</p>
+          <a href="mailto:info@capetowntours.com?subject=Booking Inquiry" className="mt-4 bg-yellow-500 px-4 py-2 rounded-full text-lg inline-block">Book Now</a>
+        </div>
+      </header>
+      
+      {/* Services Section */}
+      <section className="p-8 text-center">
+        <h2 className="text-3xl font-semibold">Our Services</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+          <div className="p-4 bg-white shadow-lg rounded-lg">
+            <h3 className="text-xl font-bold">City Tours</h3>
+            <p>Discover the best of Cape Town with our guided city tours.</p>
+          </div>
+          <div className="p-4 bg-white shadow-lg rounded-lg">
+            <h3 className="text-xl font-bold">Airport Transfers</h3>
+            <p>Reliable and comfortable airport pick-up and drop-off services.</p>
+          </div>
+          <div className="p-4 bg-white shadow-lg rounded-lg">
+            <h3 className="text-xl font-bold">Private Chauffeur</h3>
+            <p>Luxury transport for business and leisure travelers.</p>
+          </div>
+        </div>
+      </section>
+      
+      {/* About Section */}
+      <section className="bg-yellow-500 text-white p-8 text-center">
+        <h2 className="text-3xl font-semibold">About Us</h2>
+        <p className="mt-4">We are a leading tour and transport company in Cape Town, offering safe and exciting experiences for travelers.</p>
+      </section>
+      
+      {/* Contact Section */}
+      <section className="p-8 text-center">
+        <h2 className="text-3xl font-semibold">Contact Us</h2>
+        <p className="mt-2">📍 Cape Town, South Africa</p>
+        <p>📞 +27 68 625 9663</p>
+        <p>✉️ zaholidayexperts@gmail.com</p>
+      </section>
+      
+      {/* Footer */}
+      <footer className="bg-gray-800 text-white text-center p-4">
+        <p>&copy; 2025 Cape Town Tours & Transport. All rights reserved.</p>
+      </footer>
+    </div>
+  );
+};
+
+export default CapeTownTours;
